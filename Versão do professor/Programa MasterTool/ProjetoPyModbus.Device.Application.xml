@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbolconfiguration xmlns="http://www.3s-software.com/schemas/Symbolconfiguration.xsd">
+  <Header>
+    <Version>3.5.11.0</Version>
+    <SymbolConfigObject version="3.5.12.0" runtimeid="3.5.12.0" libversion="3.5.11.0" compiler="3.5.12.2" lmm="3.5.12.2" profile="MasterTool IEC XE+" settings="LayoutCalculator=OptimizedClientSideLayoutCalculator" />
+    <ProjectInfo name="Projeto Arturito" devicename="Device" appname="Application" />
+  </Header>
+  <TypeList>
+    <TypeSimple name="T_BYTE" size="1" swapsize="1" typeclass="Byte" iecname="BYTE" />
+    <TypeSimple name="T_INT" size="2" swapsize="2" typeclass="Int" iecname="INT" />
+  </TypeList>
+  <NodeList>
+    <Node name="Application">
+      <Node name="GVL">
+        <Node name="ED0" type="T_BYTE" access="ReadWrite" />
+        <Node name="ED1" type="T_BYTE" access="ReadWrite" />
+        <Node name="Pecas206" type="T_INT" access="ReadWrite" />
+        <Node name="Pecas256" type="T_INT" access="ReadWrite" />
+        <Node name="PecasNEDS" type="T_INT" access="ReadWrite" />
+        <Node name="SD0" type="T_BYTE" access="ReadWrite" />
+      </Node>
+    </Node>
+  </NodeList>
+</Symbolconfiguration>
